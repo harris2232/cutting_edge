@@ -1,5 +1,5 @@
+import 'package:cutting_edge/screens/appointment.dart';
 import 'package:flutter/material.dart';
-import 'my_homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       ).copyWith(
         primaryColor: Color(0xFF800405),
       ),
-      home: MyHomePage(),
+      home: AppointmentScreen(),
+      // home: MyHomePage(),
     );
   }
 }

@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'package:cutting_edge/support_files/enums.dart';
 
-import 'package:cutting_edge/my_homepage.dart';
-
 class SortingBloc {
   StreamController sortingStreamController =
       StreamController<SortBy>.broadcast();
